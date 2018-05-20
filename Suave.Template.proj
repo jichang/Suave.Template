@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Description>Suave Template</Description>
+    <Authors>Jacob Chang</Authors>
+    <PackageProjectUrl>https://github.com/Jacob/Suave.Template</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/Jacob/Suave.Template/blob/master/LICENSE.md</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/JacobChang/Suave.Template.git</RepositoryUrl>
+    <PackageIconUrl>https://avatars0.githubusercontent.com/u/5822862?s=200</PackageIconUrl>
+    <PackageTags>template;web;f#;Suave;</PackageTags>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <PackageType>Template</PackageType>
+    <NoBuild>true</NoBuild>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ExcludeFromPackage>
+        Content/node_modules/**/*;
+        Content/packages/**/*;
+        Content/paket-files/**/*;
+        **/obj/**/*;
+        **/bin/**/*;
+        **/.fake/**/*;
+    </ExcludeFromPackage>
+</PropertyGroup>
+  <ItemGroup>
+    <Content Include="Content/**/*" Exclude="$(ExcludeFromPackage)" >
+        <PackagePath>Content\</PackagePath>
+    </Content>
+  </ItemGroup>
+</Project>

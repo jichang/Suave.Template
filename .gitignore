@@ -1,0 +1,6 @@
+.fake/
+packages/
+paket-files/
+nupkg/
+obj/
+release.cmd
