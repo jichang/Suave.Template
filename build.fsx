@@ -46,7 +46,7 @@ Target "ReleaseGitHub" (fun _ ->
   let remoteGit = "origin"
   let commitMsg = sprintf "Bumping version to %O" release.NugetVersion
   let tagName = string release.NugetVersion
-  let gitOwner = "JacobChang"
+  let gitOwner = "SuaveIO"
   let gitName = "Suave.Template"
 
 

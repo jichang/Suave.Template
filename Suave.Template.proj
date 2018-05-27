@@ -2,9 +2,9 @@
   <PropertyGroup>
     <Description>Suave Template</Description>
     <Authors>Jacob Chang</Authors>
-    <PackageProjectUrl>https://github.com/Jacob/Suave.Template</PackageProjectUrl>
-    <PackageLicenseUrl>https://github.com/Jacob/Suave.Template/blob/master/LICENSE.md</PackageLicenseUrl>
-    <RepositoryUrl>https://github.com/JacobChang/Suave.Template.git</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/SuaveIO/Suave.Template</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/SuaveIO/Suave.Template/blob/master/LICENSE.md</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/SuaveIO/Suave.Template.git</RepositoryUrl>
     <PackageIconUrl>https://avatars0.githubusercontent.com/u/5822862?s=200</PackageIconUrl>
     <PackageTags>template;web;f#;Suave;</PackageTags>
     <NeutralLanguage>en-US</NeutralLanguage>
