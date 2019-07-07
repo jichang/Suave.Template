@@ -29,7 +29,7 @@ Target "Run" (fun () ->
     }
     let browser = async {
         Threading.Thread.Sleep 5000
-        Diagnostics.Process.Start "http://localhost:8085" |> ignore
+        Diagnostics.Process.Start "http://localhost:8080" |> ignore
     }
 
     [ server; browser]

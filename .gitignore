@@ -3,5 +3,7 @@ packages/
 paket-files/
 nupkg/
 obj/
-release.cmd
 .ionide/
+
+release.cmd
+*.fsx.lock
