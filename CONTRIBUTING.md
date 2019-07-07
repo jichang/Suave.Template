@@ -21,4 +21,4 @@
 
 * In case that dotnet -i fails with an 'Reference not set' error on Linux, try
   * Uninstall a previous version: `dotnet new -u Suave.Template`
-  * Install the new template with its path: `dotnet new -i ./nupkg/Suave.Template.<<version>>.nupkg
+  * Install the new template with its path: `dotnet new -i ./nupkg/Suave.Template.<<version>>.nupkg`
