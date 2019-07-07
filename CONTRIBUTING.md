@@ -8,14 +8,14 @@
 
 ### Testing directly
 
-1.  Change directory to `Content`
-1.  Trigger `build.cmd run` / `build.sh`
+1. Change directory to `Content`
+1. Trigger `build.cmd run` / `build.sh`
 
 ### Testing NuGet package
 
-1.  Build template from root directory
-1.  Uninstall currently installed template with `dotnet new -u Suave.Template`
-1.  Install new version with `dotnet new -i <<repo-path>>/nupkg/Suave.Template.<<version>>.nupkg`
+1. Build template from root directory
+1. Uninstall currently installed template with `dotnet new -u Suave.Template`
+1. Install new version with `dotnet new -i <<repo-path>>/nupkg/Suave.Template.<<version>>.nupkg`
 
 ## Known issues
 
